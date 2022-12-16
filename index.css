@@ -1,0 +1,182 @@
+h2{
+    text-align: center;
+    color: black;
+    font-weight: 700;
+    animation: myrot 5s infinite;
+     
+}
+@keyframes myrot {
+    from{
+        rotate: 0deg;
+    }
+    to{
+        rotate: 15deg;
+    }
+}
+
+.main{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+  
+}
+.card1{
+    width: 230px;
+    height:330px;
+    background-color:rgb(93, 158, 136);
+    text-align: center;
+    margin-left: 90px;    
+}
+.card1:hover{
+    background-color: blue;
+    color: white;
+}
+button{
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    color: azure;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+button:hover{
+    background-color:wheat;
+    color: blue;
+}
+h3{
+    color: wheat;
+    
+}
+img{
+    margin-top: 10px;
+}
+.card2{
+    width: 230px;
+    height:330px;
+    background-color:rgb(93, 158, 136);
+    text-align: center;
+    margin-left: 90px;
+}
+.card2:hover{
+    background-color: blue;
+    color: white;
+}
+.card3{
+    width: 230px;
+    height:330px;
+    background-color:rgb(93, 158, 136);
+    text-align: center;
+    margin-left: 90px;
+
+}
+.card3:hover{
+    background-color: blue;
+    color: white;
+}
+.card4{
+    width: 230px;
+    height:330px;
+    background-color:rgb(93, 158, 136);
+    text-align: center;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+.card4:hover{
+    background-color: blue;
+    color: white;
+}
+.card5{
+    width: 230px;
+    height:330px;
+    background-color:rgb(93, 158, 136);
+    text-align: center;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+.card5:hover{
+    background-color: blue;
+    color: white;
+}
+.card6{
+    width: 230px;
+    height:330px;
+    background-color:rgb(93, 158, 136);
+    text-align: center;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+.card6:hover{
+    background-color: blue;
+    color: white;
+}
+@media screen  and (max-width: 420px){
+   
+    
+    .main{
+      display: block;
+    
+    }
+    .card1{
+      
+       
+        margin-top: 50px;    
+    }
+    .card1:hover{
+        background-color:navy;
+        color: green;
+    }
+    
+    
+    button:hover{
+        background-color:purple;
+        color:red;
+    }
+    h3{
+        color: wheat;
+        
+    }
+
+    .card2{
+       
+        margin-top: 50px;
+    }
+    .card2:hover{
+        background-color:navy;
+        color: green;
+    }
+    .card3{
+       
+        margin-top: 50px;
+    
+    }
+    .card3:hover{
+        background-color:navy;
+        color: green;
+    }
+    .card4{
+       
+        margin-top: 50px;
+    }
+    .card4:hover{
+        background-color:navy;
+        color: green;
+    }
+    .card5{
+      
+        margin-top: 50px;
+    }
+    .card5:hover{
+        background-color:navy;
+        color: green;
+    }
+    .card6{
+  
+        margin-top: 50px;
+    }
+    .card6:hover{
+        background-color:navy;
+        color: green;
+    }
+}
+    
